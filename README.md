@@ -187,6 +187,6 @@ Toutes les dépendances sont listées dans `requirements.txt`.
 1. **Page d’accueil** : affiche le titre du projet et l’interface de saisie.
 2. **Page des résultats** : montre la probabilité de défaut, le score de crédit et la note avec des recommandations exploitables.
 
-![image](https://github.com/user-attachments/assets/d1b51282-cf2a-4e9a-ab19-fbe407b425ba)
+![image](https://github.com/raskel00/Mod-lisation-Du-Risque-De-Cr-dit-End-To-End/blob/main/images/FireShot%20Capture%20002%20-%20Mod%C3%A9lisation%20Du%20Risque%20De%20Cr%C3%A9dit%20-%20%5Blocalhost%5D.png)
 
 ---
