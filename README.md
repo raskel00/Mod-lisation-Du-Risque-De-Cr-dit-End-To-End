@@ -4,7 +4,7 @@
 
 La Modélisation Du Risque De Crédit est essentielle pour les institutions financières afin d’évaluer la probabilité qu’un emprunteur fasse défaut sur un prêt. Ce projet implique l’analyse de plusieurs jeux de données pour identifier les facteurs influençant le risque de crédit, conduisant à de meilleures décisions. Le projet fournit un système d’évaluation du risque de crédit basé sur le machine learning. Il évalue le risque de défaut des emprunteurs, calcule des scores de crédit et attribue des notes de crédit. Le projet est développé en Python et Streamlit, offrant une interface interactive et conviviale.
 
-[**Lien Web**](https://credit-risk-modeling-lauki-finance.streamlit.app/)
+[**Lien Web**](https://modelisation-du-risque-de-credit.streamlit.app/)
 
 ## Prédiction du risque de défaut : Évaluation et déploiement du modèle
 
@@ -37,11 +37,11 @@ Ce projet vise à développer un modèle de machine learning pour prédire le ri
 
   * SHAP (importance des features)
 
-    ![FI](https://github.com/nafiul-araf/Credit-Risk-Modeling-End-to-End-Project/blob/main/images/Feature%20importance.png)
+    ![FI](https://github.com/raskel00/Mod-lisation-Du-Risque-De-Cr-dit-End-To-End/blob/main/images/Importance%20Des%20Feature.png)
 
   * LIME (interprétabilité locale)
 
-    ![lime](https://github.com/nafiul-araf/Credit-Risk-Modeling-End-to-End-Project/blob/main/images/Lime.JPG)
+    ![lime](https://github.com/raskel00/Mod-lisation-Du-Risque-De-Cr-dit-End-To-End/blob/main/images/Lime.JPG)
 
 ### Résultats clés
 
@@ -60,7 +60,7 @@ Ce projet vise à développer un modèle de machine learning pour prédire le ri
 
 1. Courbe AUC-ROC avec performance quasi parfaite (AUC : 0,99)
 
-   ![rocauc](https://github.com/nafiul-araf/Credit-Risk-Modeling-End-to-End-Project/blob/main/images/ROC%20Curve.png)
+   ![rocauc](https://github.com/raskel00/Mod-lisation-Du-Risque-De-Cr-dit-End-To-End/blob/main/images/COURBE%20ROC.png)
 
 2. Graphique récapitulatif SHAP montrant les features ayant le plus d’influence sur les prédictions.
 
