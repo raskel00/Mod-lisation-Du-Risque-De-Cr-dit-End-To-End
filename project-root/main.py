@@ -13,7 +13,7 @@ from utils import predict
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-IMG_PATH = os.path.join(BASE_DIR, "assets", "jeff_finance.jpg")
+IMG_PATH = os.path.join(BASE_DIR, "Jeff Finance.JPG")
 
 
 # Définir la configuration de la page et le titre
@@ -86,4 +86,5 @@ if st.button("Calculate Risk"):
         st.warning("⚠ L’emprunteur présente un profil à haut risque. Envisagez d'améliorer les habitudes de crédit.")
     else:
         st.info("🌟 L’emprunteur présente un profil à faible risque. L'approbation du prêt est probable.")
+
 
