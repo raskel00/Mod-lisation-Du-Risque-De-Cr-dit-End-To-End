@@ -1,0 +1,5 @@
+eta: 0.029734058140635275
+max_depth: 3
+subsample: 0.7310305432227708
+colsample_bytree: 0.6569534465328222
+n_estimators: 524
