@@ -11,8 +11,10 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
 
-model_data = joblib.load(r"C:\Users\Raskel\Desktop\Projet-Principal-De-Modélisation-Du-Risque-De-Crédit-End-To-End\project-root\model\model_data.pkl")
-model_data
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "model", "model_data.pkl")
+
+model_data = joblib.load(MODEL_PATH)
 
 
 # =============================================================================
@@ -130,3 +132,4 @@ def predict(age, avg_dpd_per_dm, credit_utilization_ratio, dmtlm, income,
     probability, credit_score, rating = calculate_credit_score(input_df)
 
     return probability, credit_score, rating
+
