@@ -4,7 +4,7 @@ Créé le Lun 09 Déc 2025 à 21:15:47
 
 @author: Admin
 """
-
+import os
 import joblib
 import numpy as np
 import pandas as pd
@@ -132,4 +132,5 @@ def predict(age, avg_dpd_per_dm, credit_utilization_ratio, dmtlm, income,
     probability, credit_score, rating = calculate_credit_score(input_df)
 
     return probability, credit_score, rating
+
 
