@@ -10,6 +10,10 @@ Created on Tue Dec 10 13:29:38 2025
 
 import streamlit as st
 from utils import predict
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+IMG_PATH = os.path.join(BASE_DIR, "assets", "jeff_finance.jpg")
 
 
 # Définir la configuration de la page et le titre
@@ -24,7 +28,7 @@ with st.sidebar:
     2. Ajustez les curseurs et les menus déroulants pour des entrées interactives.
     3. Cliquez sur 'Calculate Risk' pour afficher les résultats.
     """)
-    st.image(r"C:/Users/Raskel/Desktop/Projet-Principal-De-Modélisation-Du-Risque-De-Crédit-End-To-End/project-root/Jeff Finance.JPG", caption="Votre partenaire financier de confiance")  # Ajouter une image ou un logo pertinent.
+    st.image(IMG_PATH, caption="Votre partenaire financier de confiance")  # Ajouter une image ou un logo pertinent.
 
 # Champs d’entrée
 st.subheader("💼 Informations Client")
@@ -82,3 +86,4 @@ if st.button("Calculate Risk"):
         st.warning("⚠ L’emprunteur présente un profil à haut risque. Envisagez d'améliorer les habitudes de crédit.")
     else:
         st.info("🌟 L’emprunteur présente un profil à faible risque. L'approbation du prêt est probable.")
+
